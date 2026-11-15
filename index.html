@@ -554,13 +554,13 @@
         <div class="card proj">
           <p class="status">Finished</p>
           <h3>Bearing Fault Detection</h3>
-          <p>Detecting bearing faults from vibration data. Common evaluation splits report 100% accuracy because of
-            data leakage. On bearings never seen in training, a Random Forest with envelope analysis features reached
-            0.74 macro-F1 and beat my 1D-CNN (0.55). The CNN runs as a 107 KB ONNX model behind a FastAPI service in
+          <p>
+          <p>Detecting bearing faults from vibration data. I showed that the usual 100% accuracy comes from data
+            leakage, evaluated on bearings never seen in training, and deployed the model with ONNX, FastAPI and
             Docker.</p>
+          </p>
           <div class="chips"><span class="chip">Python</span><span class="chip">PyTorch</span><span class="chip">Signal
-              processing</span><span class="chip">ONNX</span><span class="chip">FastAPI</span><span
-              class="chip">Docker</span></div>
+              processing</span><span class="chip">ONNX</span><span class="chip">Docker</span></div>
           <div class="links"><a href="https://github.com/Batubttl/Bearing-fault-detection" target="_blank"
               rel="noopener">View on GitHub</a></div>
         </div>
